@@ -1,0 +1,29 @@
+{
+  "happyPath": {
+    "email": "qamid@qamid.ru",
+    "password": "qamid"
+  },
+  "sadPath": {
+    "email": "qamid@qamid.ru",
+    "password": "wrongpassword"
+  },
+  "sadPath2": {
+    "email": "qamidqamid.ru",
+    "password": "qamid"
+  },
+  "selectors": {
+    "emailInput": ".login__input[type=email]",
+    "passwordInput": ".login__input[type=password]",
+    "submitButton": ".login__button",
+    "body": "body",
+    "confTitle": ".conf-step__title",
+    "h1Title": "h1.page-header__title",
+    "h2Title": "h2.login__title",
+    "headerTitle": ".page-header__title"
+  },
+  "texts": {
+    "h1Text": "Идём",
+    "h2Text": "Авторизация"
+  }
+}
+
